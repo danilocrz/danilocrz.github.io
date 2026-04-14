@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danilo Cruz | Dev Mobile & Full Stack</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div id="particles-js"></div>
+
+  <!-- Navegação por pontos -->
+  <div class="scroll-dots">
+    <div class="dot active" data-section="hero" title="Início"></div>
+    <div class="dot" data-section="projects" title="Projetos"></div>
+    <div class="dot" data-section="skills" title="Habilidades"></div>
+    <div class="dot" data-section="experience" title="Experiência"></div>
+    <div class="dot" data-section="education" title="Formação"></div>
+    <div class="dot" data-section="contact" title="Contato"></div>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-mobile-alt"></i>
+        <span>Mobile & Full Stack Developer</span>
+      </div>
+
+      <h1>Danilo Cruz</h1>
+
+      <div class="typewriter-container">
+        <span class="typewriter" id="typewriter"></span>
+        <span class="typewriter-cursor"></span>
+      </div>
+
+      <p>
+        Desenvolvedor Mobile com mais de 2 anos de experiência em Flutter e Kotlin,
+        com foco em arquitetura MVVM, Clean Architecture e princípios SOLID.
+        Responsável técnico por um aplicativo POS com integração TEF para processamento
+        de pagamentos. Atuando também como Full Stack com Node.js, React e Python,
+        entregando soluções completas e escaláveis.
+      </p>
+
+      <div class="btn-container">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-eye"></i>
+          <span>Ver Projetos</span>
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fas fa-paper-plane"></i>
+          <span>Contato</span>
+        </a>
+      </div>
+
+      <a href="#projects" class="scroll-hint">
+        <span>Explore meu trabalho</span>
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== PROJETOS ===== -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projetos</h2>
+      <p class="section-subtitle">Alguns dos trabalhos que desenvolvi</p>
+
+      <div class="projects-single">
+
+        <div class="project-card project-card--featured">
+          <div class="project-image placeholder-img">
+
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">API Monitor</h3>
+            <p class="project-description">
+              Um endpoint do meu projeto caiu e só fui descobrir quando um usuário reclamou.
+              Nenhum alerta, nenhuma notificação. Foi aí que resolvi criar algo simples para
+              resolver isso de vez.
+            </p>
+            <ul class="project-features">
+              <li>Cadastro e monitoramento de endpoints em tempo real</li>
+              <li>Notificação push imediata quando uma API cai</li>
+              <li>Histórico de status e disponibilidade</li>
+              <li>Projeto nascido de um problema real</li>
+            </ul>
+            <div class="project-tags">
+              <span class="tag">Flutter</span>
+              <span class="tag">Dart</span>
+              <span class="tag">Firebase</span>
+              <span class="tag">Push Notifications</span>
+            </div>
+            <div class="project-links">
+              <a href="https://www.linkedin.com/posts/danilo-cruzs_flutter-mobiledevelopment-programacao-activity-7439333514392547328-pKVz"
+                target="_blank">
+                <i class="fab fa-linkedin-in"></i> Ver no LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HABILIDADES ===== -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">Habilidades</h2>
+      <p class="section-subtitle">Tecnologias e práticas que domino</p>
+
+      <div class="skills-container">
+
+        <div class="skill-category">
+          <h3><i class="fas fa-mobile-alt"></i> Mobile</h3>
+          <div class="skill-tags-grid">
+            <span>Flutter</span>
+            <span>Dart</span>
+            <span>Kotlin</span>
+            <span>Android SDK</span>
+            <span>Firebase</span>
+            <span>REST APIs</span>
+            <span>Flavors</span>
+            <span>Provider</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fas fa-layer-group"></i> Arquitetura & Ferramentas</h3>
+          <div class="skill-tags-grid">
+            <span>Clean Architecture</span>
+            <span>MVVM</span>
+            <span>SOLID</span>
+            <span>Clean Code</span>
+            <span>TDD</span>
+            <span>Design Patterns</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>Figma</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fas fa-server"></i> Full Stack</h3>
+          <div class="skill-tags-grid">
+            <span>Node.js</span>
+            <span>React</span>
+            <span>Python</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIÊNCIA ===== -->
+  <section class="experience-alt" id="experience">
+    <div class="container">
+      <h2 class="section-title">Experiência</h2>
+      <p class="section-subtitle">Minha trajetória profissional</p>
+
+      <div class="experience-grid">
+
+        <!-- Fidus Solutions -->
+        <div class="experience-card">
+          <div class="experience-header">
+            <div class="company-logo img-logo">
+              <img src="./img/fidus.png" alt="Fidus Solutions" />
+            </div>
+            <div class="company-info">
+              <h3>Desenvolvedor Full Stack</h3>
+              <div class="company-meta">
+                <span class="company-name">Fidus Solutions</span>
+                <span class="experience-period">Abr 2026 – Atual</span>
+              </div>
+              <div class="work-mode">
+                <span class="employment-type">Tempo integral</span>
+                <span class="location"><i class="fas fa-map-marker-alt"></i> São Paulo, SP · Remoto</span>
+              </div>
+            </div>
+          </div>
+          <div class="experience-details">
+            <ul class="responsibilities">
+              <li><i class="fas fa-chevron-right"></i> Desenvolvimento de sistemas para empresas de telecomunicações e
+                RH</li>
+              <li><i class="fas fa-chevron-right"></i> Construção de APIs REST com Node.js para backend de sistema
+                telecom</li>
+              <li><i class="fas fa-chevron-right"></i> Desenvolvimento de interfaces web responsivas com React</li>
+              <li><i class="fas fa-chevron-right"></i> Implementação de backend em Python integrado a apps Flutter</li>
+              <li><i class="fas fa-chevron-right"></i> Clean Code, versionamento Git e metodologias ágeis (Scrum/Kanban)
+              </li>
+            </ul>
+            <div class="skills-developed">
+              <h4>Habilidades desenvolvidas:</h4>
+              <div class="skill-tags">
+                <span>Node.js</span>
+                <span>React</span>
+                <span>Python</span>
+                <span>Flutter</span>
+                <span>REST APIs</span>
+                <span>Git</span>
+                <span>Scrum</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bivio Sistemas -->
+        <div class="experience-card">
+          <div class="experience-header">
+            <div class="company-logo img-logo">
+              <img src="./img/bivio.ico" alt="Bivio Sistemas" />
+            </div>
+            <div class="company-info">
+              <h3>Desenvolvedor Mobile</h3>
+              <div class="company-meta">
+                <span class="company-name">Bivio Sistemas</span>
+                <span class="experience-period">Set 2025 – Abr 2026 · 8 meses</span>
+              </div>
+              <div class="work-mode">
+                <span class="employment-type">Tempo integral</span>
+                <span class="location"><i class="fas fa-map-marker-alt"></i> Blumenau, SC · Presencial</span>
+              </div>
+            </div>
+          </div>
+          <div class="experience-details">
+            <ul class="responsibilities">
+              <li><i class="fas fa-chevron-right"></i> Responsável técnico pelo app POS para maquininhas em postos de
+                combustível</li>
+              <li><i class="fas fa-chevron-right"></i> Definição de arquitetura MVVM e padronização do projeto</li>
+              <li><i class="fas fa-chevron-right"></i> Integração TEF para processamento eletrônico de pagamentos</li>
+              <li><i class="fas fa-chevron-right"></i> Interoperabilidade Flutter ↔ Android nativo (Kotlin) com APIs
+                REST</li>
+              <li><i class="fas fa-chevron-right"></i> Configuração de ambientes com Flavors e gerenciamento de estado
+                com Provider</li>
+            </ul>
+            <div class="skills-developed">
+              <h4>Habilidades desenvolvidas:</h4>
+              <div class="skill-tags">
+                <span>Flutter</span>
+                <span>Kotlin</span>
+                <span>MVVM</span>
+                <span>TEF</span>
+                <span>Provider</span>
+                <span>Flavors</span>
+                <span>Clean Code</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bus2 -->
+        <div class="experience-card">
+          <div class="experience-header">
+            <div class="company-logo img-logo">
+              <img src="./img/bus2.png" alt="Bus2" />
+            </div>
+            <div class="company-info">
+              <h3>Desenvolvedor Mobile</h3>
+              <div class="company-meta">
+                <span class="company-name">Bus2</span>
+                <span class="experience-period">Fev 2024 – Set 2025 · 1 ano 8 meses</span>
+              </div>
+              <div class="work-mode">
+                <span class="employment-type">Tempo integral</span>
+                <span class="location"><i class="fas fa-map-marker-alt"></i> Blumenau, SC · Remoto</span>
+              </div>
+            </div>
+          </div>
+          <div class="experience-details">
+            <ul class="responsibilities">
+              <li><i class="fas fa-chevron-right"></i> Desenvolvimento e manutenção de apps de transporte urbano</li>
+              <li><i class="fas fa-chevron-right"></i> Ecossistema com mais de 70 aplicativos gerenciados via Flavors
+              </li>
+              <li><i class="fas fa-chevron-right"></i> Monitoramento em tempo real, correção de bugs e evolução contínua
+              </li>
+              <li><i class="fas fa-chevron-right"></i> Criação e manutenção de testes unitários para qualidade do código
+              </li>
+              <li><i class="fas fa-chevron-right"></i> Colaboração com designers e validação antes de publicação na Play
+                Store</li>
+            </ul>
+            <div class="skills-developed">
+              <h4>Habilidades desenvolvidas:</h4>
+              <div class="skill-tags">
+                <span>Flutter</span>
+                <span>Dart</span>
+                <span>Flavors</span>
+                <span>TDD</span>
+                <span>REST APIs</span>
+                <span>Git/GitHub</span>
+                <span>Scrum</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FORMAÇÃO ===== -->
+  <section class="education" id="education">
+    <div class="container">
+      <h2 class="section-title">Formação</h2>
+      <p class="section-subtitle">Base acadêmica</p>
+
+      <div class="education-single">
+        <div class="education-card degree">
+          <div class="edu-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="edu-content">
+            <span class="edu-type">Graduação</span>
+            <h3>Bacharelado em Engenharia de Software</h3>
+            <span class="edu-institution">Uniasselvi</span>
+            <span class="edu-period">
+              <i class="fas fa-calendar-alt"></i>
+              Previsão de conclusão: Dezembro de 2028
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-info-centered">
+        <h2 class="section-title">Vamos Conversar</h2>
+        <p>
+          Estou aberto a novas oportunidades, projetos e colaborações.
+          Se você tem algo em mente, entra em contato!
+        </p>
+
+        <div class="contact-details">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>danilocruzss@icloud.com</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <span>+55 (47) 99654-1219</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Gaspar, Santa Catarina</span>
+          </div>
+        </div>
+
+        <div class="contact-social">
+          <a href="https://github.com/danilocrz" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/danilocruz" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://wa.me/5547996541219" target="_blank" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Danilo Cruz</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="./js/scripts.js"></script>
+</body>
+
+</html>
